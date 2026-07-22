@@ -17,22 +17,18 @@ uçtan uca bir veri analizi projesi.
 - **Veri Kaynağı**: Yahoo Finance (yfinance)
 
 ## 📁 Proje Yapısı
-
-```
 banka-finansal-analiz/
 ├── data/
-│   ├── raw/            # Ham CSV verisi (gitignore'da)
-│   └── processed/      # SQLite DB + grafikler
+│ ├── raw/ # Ham CSV verisi (gitignore'da)
+│ └── processed/ # SQLite DB + grafikler
 ├── notebooks/
-│   ├── 01_veri_toplama.py
-│   ├── 02_sql_aktarma.py
-│   └── 03_gorsellestirme.py
+│ ├── 01_veri_toplama.py
+│ ├── 02_sql_aktarma.py
+│ └── 03_gorsellestirme.py
 ├── sql/
-│   └── sorgular.sql     # Analiz sorguları
+│ └── sorgular.sql # Analiz sorguları
 ├── requirements.txt
 └── README.md
-```
-
 ## 🚀 Nasıl Çalıştırılır
 
 ```bash
@@ -51,6 +47,13 @@ python notebooks/02_sql_aktarma.py
 python notebooks/03_gorsellestirme.py
 ```
 
+## 📝 İlerleme Günlüğü
+
+- [x] Gün 1: Proje iskeleti, README, requirements.txt oluşturuldu
+- [x] Gün 2: Veri çekme scripti çalıştırıldı, 6552 satır veri elde edildi
+- [ ] Gün 3: SQLite'a aktarma ve SQL sorguları
+- [ ] Gün 4: Görselleştirme ve bulgular
+
 ## 📊 Bulgular
 
 > Bu bölümü projeyi çalıştırdıktan sonra kendi bulgularınla dolduracaksın.
@@ -68,5 +71,5 @@ python notebooks/03_gorsellestirme.py
 
 ## 👤 Yazar
 
-[Adını buraya ekle] — Veri Analisti adayı
-[LinkedIn linkin] · [Diğer projelerin]
+Şükran Akşimşek
+[www.linkedin.com/in/sukranaksimsek](https://www.linkedin.com/in/sukranaksimsek)
