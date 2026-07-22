@@ -55,14 +55,9 @@ python notebooks/03_gorsellestirme.py
 - [ ] Gün 4: Görselleştirme ve bulgular
 
 ## 📊 Bulgular
-
-> Bu bölümü projeyi çalıştırdıktan sonra kendi bulgularınla dolduracaksın.
-> Örnek: "İncelenen dönemde en yüksek volatiliteyi X bankası gösterdi,
-> Y ve Z bankaları arasında ise 0.85 korelasyon tespit edildi."
-
-![Fiyat Trend](data/processed/fiyat_trend.png)
-![Volatilite Karşılaştırma](data/processed/volatilite_karsilastirma.png)
-![Korelasyon Isı Haritası](data/processed/korelasyon_isi_haritasi.png)
+.
+.
+.
 
 ## 📌 Notlar
 
